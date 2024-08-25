@@ -149,11 +149,19 @@ Summary:
 Implementing these concepts from scratch deepens your understanding of how these algorithms work and the impact of different parameters on model performance
 ![Alt text](figures/lin_reg2.jpg)
 ![Alt text](figures/lin_reg1.jpg)
-
+![Alt text](figures/fig.jpg)
+![Alt text](figures/lr3_2.jpg)
+![Alt text](figures/lr3_3.jpg)
+![Alt text](figures/lr3_4.jpg)
+![Alt text](figures/lr3_5.jpg)
 ![Alt text](figures/lin_reg2.jpg)
 ![Alt text](figures/lin_reg1.jpg)
 ![Alt text](figures/lr3_1.jpg)
 ![Alt text](figures/lr3_2.jpg)
 ![Alt text](figures/lr3_3.jpg)
 ![Alt text](figures/lr3_4.jpg)
-![Alt text](figures/lr3_5.jpg)
+![Alt text](figures/re_1.jpg)
+![Alt text](figures/re_10.jpg)
+![Alt text](figures/re_12.jpg)
+![Alt text](figures/re_15.jpg)
+
