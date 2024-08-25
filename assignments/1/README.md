@@ -77,6 +77,77 @@ In conclusion, applying the KNN model to this new dataset tests its adaptability
 ![Alt text](figures/q1_res1.jpg)
 
 ![Alt text](figures/q1_res2.jpg)
+![Alt text](figures/res.jpg)
+Q2 )
+1. Linear Regression: Linear regression is a supervised learning algorithm used to model the relationship between a dependent variable (Y) and one or more independent variables (X). The goal is to find the best-fitting line that minimizes the error between the predicted and actual values. The general form of the linear regression equation is: Y=β0+β1X1+β2X2+⋯+βpXp+ϵY=β0​+β1​X1​+β2​X2​+⋯+βp​Xp​+ϵ Where:
+
+    YY is the dependent variable.
+    X1,X2,…,XpX1​,X2​,…,Xp​ are the independent variables.
+    β0,β1,…,βpβ0​,β1​,…,βp​ are the coefficients that determine the influence of each independent variable.
+    ϵϵ is the error term.
+
+Implementation:
+
+    Data Handling:
+        Shuffle the dataset and split it into training (80%), validation (10%), and test (10%) sets to avoid bias.
+        Use numpy to handle matrix operations and calculations.
+
+    Model Training:
+        For degree 1 (simple linear regression), calculate the coefficients β0β0​ and β1β1​ using the normal equation:
+    β=(XTX)−1XTY
+    β=(XTX)−1XTY
+        Here, XX is the matrix of independent variables, and YY is the vector of dependent variables.
+
+    Prediction and Evaluation:
+        Use the fitted model to predict the values of Y for the training, validation, and test sets.
+        Calculate performance metrics like Mean Squared Error (MSE), standard deviation, and variance to evaluate the model's accuracy.
+
+2. Polynomial Regression: Polynomial regression extends linear regression by introducing polynomial terms of the independent variable. For instance, a second-degree polynomial would look like: Y=β0+β1X+β2X2Y=β0​+β1​X+β2​X2 This allows the model to capture more complex relationships between the variables.
+
+Implementation:
+
+    Model Extension:
+        Modify the linear regression class to accept the degree of the polynomial as a parameter.
+        Construct the polynomial features using numpy (e.g., X2,X3X2,X3, etc.).
+
+    Training and Evaluation:
+        Fit the polynomial model to the data and evaluate its performance using MSE, standard deviation, and variance.
+        Experiment with different polynomial degrees and identify the best one that minimizes the error on the test set.
+
+    Visualization:
+        Plot the original data points and the fitted polynomial curve to visualize how well the model captures the data's patterns.
+
+3. Regularization: Regularization is a technique used to prevent overfitting by penalizing large coefficients in the model. The two common types of regularization are:
+
+    L1 Regularization (Lasso): Adds a penalty equal to the absolute value of the coefficients.
+    L2 Regularization (Ridge): Adds a penalty equal to the square of the coefficients.
+
+The regularized regression equation is: Cost=MSE+λ∑j=1p∣βj∣(for L1)Cost=MSE+λ∑j=1p​∣βj​∣(for L1) Cost=MSE+λ∑j=1pβj2(for L2)Cost=MSE+λ∑j=1p​βj2​(for L2) Where λλ is the regularization parameter that controls the strength of the penalty.
+
+Implementation:
+
+    Model Modification:
+        Introduce a regularization parameter λλ in the regression class.
+        Modify the cost function to include the regularization term (L1 or L2).
+
+    Fitting and Evaluation:
+        Fit the regularized model to the data and evaluate its performance.
+        Experiment with different values of λλ to find the optimal balance between model complexity and accuracy.
+
+    Comparison:
+        Compare the performance of L1 and L2 regularization, and observe how they reduce overfitting by penalizing large coefficients.
+
+4. Animation and Visualization: Creating an animated GIF to visualize the fitting process is crucial for understanding how the model converges. The animation should show the line (or curve) gradually fitting to the data along with the MSE, standard deviation, and variance metrics. This helps to visualize the impact of different initialization seeds on the convergence and final model performance.
+
+Summary:
+
+    Linear Regression fits a linear relationship between dependent and independent variables.
+    Polynomial Regression captures more complex relationships by introducing polynomial terms.
+    Regularization prevents overfitting by penalizing large coefficients and improving generalization.
+    Visualization helps in understanding model performance and the effect of hyperparameters like kk (degree of polynomial) and λλ (regularization strength).
+
+Implementing these concepts from scratch deepens your understanding of how these algorithms work and the impact of different parameters on model performance
+![Alt text](figures/lin_reg2.jpg)
 ![Alt text](figures/lin_reg1.jpg)
 
 ![Alt text](figures/lin_reg2.jpg)
