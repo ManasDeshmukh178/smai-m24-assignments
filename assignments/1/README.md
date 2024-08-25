@@ -74,6 +74,9 @@ Finally, a comparison of performance metrics (accuracy, precision, recall, F1 sc
 
 In conclusion, applying the KNN model to this new dataset tests its adaptability and generalization capability. It allows for a more comprehensive evaluation of the model's performance beyond the original dataset, ensuring that the model is reliable for broader applications.
 
+![Alt text](figures/q1_res1.jpg)
+
+![Alt text](figures/q1_res2.jpg)
 ![Alt text](figures/lin_reg1.jpg)
 
 ![Alt text](figures/lin_reg2.jpg)
