@@ -160,8 +160,8 @@ Implementing these concepts from scratch deepens your understanding of how these
 ![Alt text](figures/lr3_2.jpg)
 ![Alt text](figures/lr3_3.jpg)
 ![Alt text](figures/lr3_4.jpg)
-![Alt text](figures/re_1.jpg)
-![Alt text](figures/re_10.jpg)
-![Alt text](figures/re_12.jpg)
-![Alt text](figures/re_15.jpg)
+![Alt text](figures/re_1.png)
+![Alt text](figures/re_10.png)
+![Alt text](figures/re_12.png)
+![Alt text](figures/re_15.png)
 
