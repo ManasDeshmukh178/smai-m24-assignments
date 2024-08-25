@@ -77,3 +77,9 @@ In conclusion, applying the KNN model to this new dataset tests its adaptability
 ![Alt text](figures/lin_reg1.jpg)
 
 ![Alt text](figures/lin_reg2.jpg)
+![Alt text](figures/lin_reg1.jpg)
+![Alt text](lr3_1.jpg)
+![Alt text](lr3_2.jpg)
+![Alt text](lr3_3.jpg)
+![Alt text](lr3_4.jpg)
+![Alt text](lr3_5.jpg)
