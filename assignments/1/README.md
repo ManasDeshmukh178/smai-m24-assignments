@@ -1,2 +1,2 @@
 # Assignment 1 Report
-![Alt text](figures/lin_reg1.png)
+![Alt text](figures/lin_reg1.jpg)
