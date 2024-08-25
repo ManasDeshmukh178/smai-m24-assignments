@@ -1,6 +1,6 @@
 # Statistical Methods in Artificial Intelligence (Monsoon '24)
 
-Name:
+Name:Manas Sachin Deshmukh
 
-Roll Number:
+Roll Number:2022102040
 
